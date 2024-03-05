@@ -54,8 +54,9 @@ footer {
 
 /* Footer animation */
 @keyframes greentransition {
-	from {background-color: #c4d5d9;}
-	to {background-color: green;}
+	  0%   {background-color: #c4d5d9;}
+	  50%  {background-color: green;}
+	  100% {background-color: #c4d5d9;}
 }
 
 ul.navigation {
