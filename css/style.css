@@ -110,9 +110,6 @@ aside a:hover{
 	float:left;	/* use this on an element (like an image) to make it float to the left of it's containing HTML element */
 	margin:0  10px 10px 0;
 }
-.clear{
-	clear:both; /* this clears floats.  This would be used to cancel out a float's behavior on content below it.  */
-}
 
 
 /* CSS Flex / Grid styles */
@@ -143,6 +140,9 @@ aside a:hover{
 	main,
 	aside {
 	  grid-column: 1 / span 4;
+	}
+	figure {
+		clear:both; /* this clears floats.  This would be used to cancel out a float's behavior on content below it.  */
 	}
 	
   }
